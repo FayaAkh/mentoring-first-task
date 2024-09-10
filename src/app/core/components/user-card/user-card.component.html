@@ -1,0 +1,7 @@
+<div class="user-card">
+    <h2>{{ user.name }}</h2>
+    <p>{{ user.email }}</p>
+    <p>Телефон: {{ user.phone }}</p>
+    <p>Сайт: {{ user.website }}</p>
+    <button (click)="deleteUser(user.id)">Delete</button>
+</div>
