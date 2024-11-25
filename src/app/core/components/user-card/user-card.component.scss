@@ -17,10 +17,17 @@
     font-size: 14px;
     color: #666;
   }
-
+.btn{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
 button{
-    background-color: #4CAF50;
+    
     color: white;
+    background-color: #154017;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;

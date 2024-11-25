@@ -1,2 +1,5 @@
-<h1>Junior Project</h1>
+<div *ngIf = "isHomeRoute">
+    <h1>{{title}}</h1>
+    <button (click)="navigateToUserList()" >USERS</button>
+</div>
 <router-outlet></router-outlet>

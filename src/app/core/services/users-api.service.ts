@@ -9,10 +9,7 @@ import { IUser } from '../models/user';
 export class UsersApiService {
 
 
-  constructor(
-    private http: HttpClient
-  ) 
-  { }
+  constructor(private http: HttpClient){ }
 
   public getUsers(): Observable<IUser[]>{
     const users = this.http.get('https://jsonplaceholder.typicode.com/users')
